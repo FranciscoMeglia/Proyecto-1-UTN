@@ -367,6 +367,19 @@ a {
     display: flex;
 }
 
+.tramites .cards-tramites-container .card-tramite .hover {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border-radius: 10px;
+    background-color: transparent;
+}
+
+.hover:hover ~ .info-tr,
+.hover:hover ~ .img  {
+    background-color: rgb(247, 255, 255);
+}
+
 .tramites .cards-tramites-container .card-tramite .img {
     width: 25%;
     min-height: 160px;
