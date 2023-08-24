@@ -16,6 +16,11 @@ html , body {
     right: 0.5vw;
     z-index: 1000;
     cursor: pointer;
+    transition: 0.3s;
+}
+
+.show-bot {
+    bottom: 1vh;
 }
 
 a {
