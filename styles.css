@@ -724,3 +724,11 @@ a {
         display: flex;
     }
 }
+
+/* prueba */
+
+@media screen and (max-width: 390px) {
+    .main .nav-bar .nav-bar-cont .logo img {
+        width: 230px
+    }
+}
